@@ -17,5 +17,8 @@ public class Main {
              index++;
         }
 
+        Ex3 exercise3 = new Ex3();
+        exercise3.sumOfNumbersInARange(15,20);
+
     }
 }
