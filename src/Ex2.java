@@ -18,7 +18,7 @@ public class Ex2 {
             return false;
         }
         for(int i = 2; i < primeNumber; i++){
-            if(primeNumber%i==0){
+            if(primeNumber % i==0){
                 return false;
             }
         }

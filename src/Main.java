@@ -9,7 +9,7 @@ public class Main {
         exercise2.isPrimeNumber(0);
 
         int foundPrimeNumbers = 0;
-        int index = 1;
+        int index = 2;
         while(foundPrimeNumbers != 7){
              if(exercise2.isPrimeNumber2(index)){
                  foundPrimeNumbers++;
@@ -20,5 +20,8 @@ public class Main {
         Ex3 exercise3 = new Ex3();
         exercise3.sumOfNumbersInARange(15,20);
 
+        Ex4 exercise4 = new Ex4();
+        int[] table = {1, 5, 77};
+        exercise4.provideArray(table);
     }
 }
