@@ -52,6 +52,10 @@ public class Main {
         Ex8 exercise8 = new Ex8();
         System.out.println(exercise8.isSequenceisArtmecic(table1));
 
+        Ex9 exercise9 = new Ex9();
+        exercise9.moduloFunction(9,4);
+        exercise9.moduloFunction(2,1);
+
 
 
 
