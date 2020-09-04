@@ -39,7 +39,7 @@ public class Main {
         }
 
         Ex5 exercise5 = new Ex5();
-        int[] table1 = {-85, 96, -78, 108, -3, 100, 98, -7};
+        int[] table1 = {85, 96, 78, 108, 3, 100, 98, 7};
         exercise5.showBiggestAndSmallestFromTable(table1);
 
         Ex6 exercise6 = new Ex6();
