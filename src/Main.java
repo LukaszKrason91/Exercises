@@ -1,3 +1,8 @@
+import Ex11.Animal;
+import Ex11.Cat;
+import Ex11.Cow;
+import Ex11.Dog;
+
 public class Main {
 //    Wywoływanie poszczegulnych zadań
 
@@ -23,5 +28,25 @@ public class Main {
         Ex4 exercise4 = new Ex4();
         int[] table = {1, 5, 77};
         exercise4.provideArray(table);
+
+        Animal kot = new Cat();
+        Animal pies = new Dog();
+        Animal krowa = new Cow();
+
+        Animal[] wies = {kot,krowa,pies};
+        for (int i = 0; i< wies.length; i++){
+            wies[i].makeSound();
+        }
+
+        Ex5 exercise5 = new Ex5();
+        int[] table1 = {-85, 96, -78, 108, -3, 100, 98, -7};
+        exercise5.showBiggestAndSmallestFromTable(table1);
+
+        Ex6 exercise6 = new Ex6();
+        exercise6.isNegativeValue(table1);
+
+
+
+
     }
 }

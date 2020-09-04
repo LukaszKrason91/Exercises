@@ -19,6 +19,6 @@ public class Ex4 {
         for(int i: table){
             System.out.print( i + " " );
         }
-        System.out.print("]");
+        System.out.println("]");
     }
 }
