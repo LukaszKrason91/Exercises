@@ -31,6 +31,7 @@ public class Ex6 {
             System.out.println("]");
         }else {
             System.out.println("Tablica nie ma wartosci ujemnych");
+            return;
         }
 
     }

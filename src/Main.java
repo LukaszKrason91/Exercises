@@ -45,6 +45,10 @@ public class Main {
         Ex6 exercise6 = new Ex6();
         exercise6.isNegativeValue(table1);
 
+        Ex7 exercise7 = new Ex7();
+        exercise7.getArtmeticSequence(9,78,25);
+        exercise7.getArtmeticSequence(5,2,3);
+
 
 
 
