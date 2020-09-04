@@ -49,6 +49,9 @@ public class Main {
         exercise7.getArtmeticSequence(9,78,25);
         exercise7.getArtmeticSequence(5,2,3);
 
+        Ex8 exercise8 = new Ex8();
+        System.out.println(exercise8.isSequenceisArtmecic(table1));
+
 
 
 
