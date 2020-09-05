@@ -1,6 +1,6 @@
 package animals;
 
-public class Cat {
+public class Cat implements Animal{
     private String colour;
     private int weight;
     private String name;

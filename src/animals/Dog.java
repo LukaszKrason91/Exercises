@@ -1,6 +1,6 @@
 package animals;
 
-public class Dog {
+public class Dog implements Animal{
     private String colour;
     private int weight;
     private String name;
@@ -10,6 +10,7 @@ public class Dog {
     public Dog(){
         this.isAlive = true;
     }
+
     public String getName() {
         if (name == null) {
             return defaultName;
