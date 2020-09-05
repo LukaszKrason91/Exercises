@@ -10,7 +10,7 @@ public class Main {
         Ex1 exercise1 = new Ex1();
         exercise1.printMultiplicationTable(5);
 
-        System.out.println("-------------------");
+        System.out.println("-Ex2------------------");
 
         Ex2 exercise2 = new Ex2();
         exercise2.isPrimeNumber(0);
@@ -23,12 +23,12 @@ public class Main {
              }
              index++;
         }
-        System.out.println("-------------------");
+        System.out.println("-Ex3------------------");
 
         Ex3 exercise3 = new Ex3();
         exercise3.sumOfNumbersInARange(15,20);
 
-        System.out.println("-------------------");
+        System.out.println("-Ex4------------------");
 
         Ex4 exercise4 = new Ex4();
         int[] table = {1, 5, 77};
@@ -45,35 +45,39 @@ public class Main {
             wies[i].makeSound();
         }
 
-        System.out.println("-------------------");
+        System.out.println("-Ex5------------------");
 
         Ex5 exercise5 = new Ex5();
         int[] table1 = {85, 96, 78, 108, 3, 100, 98, 7};
         exercise5.showBiggestAndSmallestFromTable(table1);
 
-        System.out.println("-------------------");
+        System.out.println("-Ex6------------------");
 
         Ex6 exercise6 = new Ex6();
         exercise6.isNegativeValue(table1);
 
-        System.out.println("-------------------");
+        System.out.println("--Ex7-----------------");
 
         Ex7 exercise7 = new Ex7();
         exercise7.getArtmeticSequence(9,78,25);
         exercise7.getArtmeticSequence(5,2,3);
 
-        System.out.println("-------------------");
+        System.out.println("-Ex8------------------");
 
         Ex8 exercise8 = new Ex8();
         System.out.println(exercise8.isSequenceisArtmecic(table1));
 
-        System.out.println("-------------------");
+        System.out.println("-Ex9------------------");
 
         Ex9 exercise9 = new Ex9();
         exercise9.moduloFunction(9,4);
         exercise9.moduloFunction(2,1);
+        exercise9.moduloFunction(14,5);
+        exercise9.moduloFunction(1,5);
+        System.out.println(exercise9.getRemainderAfterDivision(14,5));
 
-        System.out.println("-------------------");
+
+        System.out.println("-Ex10------------------");
 
         Ex10 exercise10 = new Ex10();
         System.out.println(exercise10.checkingTheModuloOperatoe(8, 3));

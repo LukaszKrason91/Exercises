@@ -9,5 +9,11 @@ public class Ex9 {
         return firstValue;
     }
 
+    public int getRemainderAfterDivision(int baseNumber, int divider){
+        int divisionResultRounded = baseNumber/divider;
+        return baseNumber - (divisionResultRounded*divider);
+    }
+
+
 
 }
